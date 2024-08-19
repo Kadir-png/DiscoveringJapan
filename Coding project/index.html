@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discovering Japan</title>
+    <style>
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+
+        .vibrant-header {
+            background: linear-gradient(135deg, #ff5f6d, #ffc371);
+            color: #fff;
+            padding: 3em 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .vibrant-header h1 {
+            font-size: 2.5em;
+            margin: 0.2em 0;
+        }
+
+        .vibrant-header p {
+            font-size: 1.2em;
+            margin-top: 0.5em;
+        }
+
+
+        .vibrant-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .vibrant-nav ul li {
+            margin: 0 1em;
+        }
+
+        .vibrant-nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        .vibrant-nav ul li a:hover {
+            background-color: #ff5f6d;
+        }
+
+
+        .vibrant-section {
+            padding: 3em 2em;
+            text-align: center;
+            background-color: #fff;
+            margin: 2em auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .vibrant-section h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+            color: #333;
+        }
+
+        .vibrant-section p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+
+        .city-links {
+            list-style: none;
+            padding: 0;
+            margin: 2em 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .city-links li {
+            margin: 0.5em;
+        }
+
+        .city-card {
+            display: block;
+            padding: 2em;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 200px;
+            text-align: center;
+            font-size: 1.5em;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .tokyo-card {
+            background: linear-gradient(135deg, #2193b0, #6dd5ed);
+        }
+
+        .osaka-card {
+            background: linear-gradient(135deg, #cc2b5e, #753a88);
+        }
+
+        .kyoto-card {
+            background: linear-gradient(135deg, #ee9ca7, #ffdde1);
+        }
+
+        .sapporo-card {
+            background: linear-gradient(135deg, #373b44, #4286f4);
+        }
+
+        .okinawa-card {
+            background: linear-gradient(135deg, #ff7e5f, #b9ff66);
+        }
+
+        .city-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            margin-top: 2em;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header class="vibrant-header">
+        <h1>Discovering Japan</h1>
+           </header>
+
+    <nav class="vibrant-nav">
+        <ul>
+            <li><a href="tokyo.html">Tokyo</a></li>
+            <li><a href="osaka.html">Osaka</a></li>
+            <li><a href="kyoto.html">Kyoto</a></li>
+            <li><a href="sapporo.html">Sapporo</a></li>
+            <li><a href="okinawa.html">Okinawa</a></li>
+        </ul>
+    </nav>
+
+    <section id="intro" class="vibrant-section">
+        <h2>Introduction to "Discovering Japan"</h2>
+        <p>Explore the rich history, vibrant culture, and breathtaking landscapes of Japan's most iconic cities.</p>
+    </section>
+
+    <section id="cities-overview" class="vibrant-section">
+        <h2>Featured Cities</h2>
+        <ul class="city-links">
+            <li><a href="tokyo.html" class="city-card tokyo-card">Tokyo</a></li>
+            <li><a href="osaka.html" class="city-card osaka-card">Osaka</a></li>
+            <li><a href="kyoto.html" class="city-card kyoto-card">Kyoto</a></li>
+            <li><a href="sapporo.html" class="city-card sapporo-card">Sapporo</a></li>
+            <li><a href="okinawa.html" class="city-card okinawa-card">Okinawa</a></li>
+        </ul>
+    </section>
+
+    <section class="vibrant-section">
+        <div class="photo-gallery">
+            <img src="https://i.pinimg.com/736x/7f/2d/96/7f2d96104ffadeaaef28267d686d0459.jpg" alt="Japan">
+        </div>
+    </section>
+
+    <footer>
+        <p>Discovering Japan.</p>
+    </footer>
+</body>
+</html>
